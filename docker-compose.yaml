@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+    owncast:
+        image: gabekangas/owncast:latest
+        volumes:
+            - './data:/app/data'
+            - './webroot:/app/webroot'
+            - './static:/app/static'
+        ports:
+            - 8080:8080
+            - 1935:1935

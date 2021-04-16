@@ -582,11 +582,12 @@ export default class App extends Component {
             >
               <span
                 id="logo-container"
-                class="inline-block	rounded-full bg-white w-8 min-w-8 min-h-8 h-8 mr-2 bg-no-repeat bg-center"
+		style="display:none;" 
+                class="inline-block	rounded-full w-8 min-w-8 min-h-8 h-8 mr-2 bg-no-repeat bg-center"
               >
                 <img
                   class="logo visually-hidden"
-                  src=${OWNCAST_LOGO_LOCAL}
+                  src="/img/logo.png"
                   alt="owncast logo"
                 />
               </span>
