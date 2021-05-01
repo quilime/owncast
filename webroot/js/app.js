@@ -578,7 +578,7 @@ export default class App extends Component {
             class="flex border-b border-gray-900 border-solid shadow-md fixed z-10 w-full top-0	left-0 flex flex-row justify-between flex-no-wrap"
           >
             <h1
-              class="flex flex-row items-center justify-start p-2 uppercase text-gray-400 text-xl	font-thin tracking-wider overflow-hidden whitespace-no-wrap"
+              class="flex flex-row items-center justify-start p-2 text-gray-400 text-xl	font-thin tracking-wider overflow-hidden whitespace-no-wrap"
             >
               <span
                 id="logo-container"
